@@ -1,0 +1,44 @@
+!#/usr/bin/env coffee
+
+Seshat = require('nez').link 'Seshat',
+
+    #
+    # UpLink this node (milestone) to its parent on the Master Plan
+    # 
+
+    uri: 'https://localhost:10101/sky'
+
+
+
+
+Seshat
+
+    #
+    # local root, metadata
+    #
+
+    class:    'Hyper Application'
+
+    category: 'Corporation Maintenance'
+
+    description: """
+
+
+
+        See category.
+
+
+
+
+
+    """, (feature) -> 
+
+
+        #
+        #
+        # DownLink to component cloudapp classes
+        # 
+        #
+
+        feature.link '/sky/seshat/cloud/distributed'
+        feature.link '/sky/seshat/cloud/hosted'
