@@ -2,20 +2,7 @@
 
 Seshat = require('nez').link 'Seshat',
 
-    #
-    # UpLink this node (milestone) to its parent on the Master Plan
-    # 
-
-    uri: 'https://localhost:10101/sky'
-
-
-
-
-Seshat
-
-    #
-    # local root, metadata
-    #
+    nimbal: 'https://localhost:10101/sky'
 
     class:    'Hyper Application'
 
@@ -31,7 +18,7 @@ Seshat
 
 
 
-    """, (feature) -> 
+    """, (requirement) -> 
 
 
         #
@@ -40,5 +27,5 @@ Seshat
         # 
         #
 
-        feature.link '/sky/seshat/cloud/distributed'
+        requirement.link '/sky/seshat/cloud/distributed'
         feature.link '/sky/seshat/cloud/hosted'
