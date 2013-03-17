@@ -28,4 +28,4 @@ Seshat = require('nez').link 'Seshat',
         #
 
         requirement.link '/sky/seshat/cloud/distributed'
-        feature.link '/sky/seshat/cloud/hosted'
+        requirement.link '/sky/seshat/cloud/hosted'
