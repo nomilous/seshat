@@ -28,8 +28,8 @@
 
 
 
-                         Not obliged to swear allegiance to any master, 
-                         wherever the storm drags me, I turn as guest.
+                          Not obliged to swear allegiance to any master, 
+                          to where the storm drags me, I turn as guest.
 
 
 
