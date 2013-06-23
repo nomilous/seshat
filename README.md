@@ -1,4 +1,4 @@
-/[sky](https://github.com/nomilous/elix)/[seshat](http://en.wikipedia.org/wiki/Seshat)/[cloud](https://github.com/nomilous/eo/tree/master/.metadata)/**/*
+/sky/[seshat](http://en.wikipedia.org/wiki/Seshat)/[cloud](https://github.com/nomilous/eo/tree/master/.metadata)/**/*
 
 wishlist:
 * exceptional webgl skills
